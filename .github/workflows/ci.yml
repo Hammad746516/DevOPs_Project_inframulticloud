@@ -38,3 +38,11 @@ jobs:
       with:
         scan-type: 'image'
         scan-ref: 'test-image'
+
+    - name: SonarQube Scan
+      uses: SonarSource/sonarqube-scan-action@v1
+      env:
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+      with:
+        projectBaseDir: app
