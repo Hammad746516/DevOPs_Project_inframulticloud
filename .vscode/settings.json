@@ -1,0 +1,14 @@
+{
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggest.preview": true,
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+
+  "codeium.enableCodeLens": true,
+  "codeium.enableSearch": true,
+  "codeium.enableChat": true
+}

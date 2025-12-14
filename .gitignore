@@ -1,0 +1,8 @@
+.terraform/
+awscliv2.zip
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+Thumbs.db
